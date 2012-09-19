@@ -5,6 +5,8 @@ class Stack {
  private:
   int* theStack;
   int top;
+  int capacity;
+  int* newStack;
 
  public:
   Stack(int initialSize = 10);
@@ -13,6 +15,7 @@ class Stack {
   int pop();
   int peek();
   int size();
+  int cap();
 };
 
 
